@@ -1,6 +1,6 @@
-@media screen and (min-width:320px) and (max-width:575px) {
-    .top {
-        font-size: 20px !important;
+@media screen and (min-width:768px) and (max-width:991px) {
+    .prob {
+        width: 100%;
     }
 
 }
