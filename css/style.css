@@ -1,3 +1,45 @@
+.feedback {
+    position: relative;
+}
+
+.feedback .arrow {
+    position: absolute;
+    top: 50%;
+    left: -26px;
+    transform: translateY(-50%);
+}
+
+.feedback .arrow-right {
+    position: absolute;
+    top: 50%;
+    right: -26px;
+    transform: translateY(-50%);
+}
+
+
+#feedback .fa-angle-left {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: #fff;
+}
+
+#feedback .fa-angle-right {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: #fff;
+}
+
+
 @media screen and (min-width:320px) and (max-width:576px) {
 
     .prob {
