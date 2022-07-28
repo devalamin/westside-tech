@@ -57,6 +57,7 @@ footer .icon i {
 
     .prob {
         max-width: 100%;
+        height: auto;
     }
 
 }
