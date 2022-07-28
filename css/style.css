@@ -39,6 +39,19 @@
     color: #fff;
 }
 
+footer .icon i {
+    height: 60px;
+    width: 60px;
+    background: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 10px;
+
+}
+
 
 @media screen and (min-width:320px) and (max-width:576px) {
 
