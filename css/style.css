@@ -1,3 +1,22 @@
+.slide {
+    position: relative;
+}
+
+.slide .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 200px 0;
+}
+
+
+
+
+
+
 .feedback {
     position: relative;
 }
@@ -53,11 +72,10 @@ footer .icon i {
 }
 
 
-@media screen and (min-width:320px) and (max-width:576px) {
+@media screen and (max-width:991px) {
 
-    .prob {
-        max-width: 100%;
-        height: auto;
+    .slide .overlay {
+        padding: 0 !important;
     }
 
 }
